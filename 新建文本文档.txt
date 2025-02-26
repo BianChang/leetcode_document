@@ -1,0 +1,6 @@
+docker run --gpus all -it --ipc=host --ulimit memlock=-1 --ulimit stack=67108864
+…
+
+Martin Fergie  to  Everyone 15:20
+python my_script.py &> out.log
+top
